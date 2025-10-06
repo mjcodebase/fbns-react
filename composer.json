@@ -40,7 +40,8 @@
     },
     "require-dev": {
         "monolog/monolog": "~1.23",
-        "friendsofphp/php-cs-fixer": "~2.4"
+        "friendsofphp/php-cs-fixer": "~2.4",
+        "phpunit/phpunit": "^8.5.2"
     },
     "suggest": {
         "ext-event": "For more efficient event loop implementation.",
