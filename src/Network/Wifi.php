@@ -6,15 +6,15 @@ namespace Fbns\Network;
 
 use Fbns\Network;
 
-class Lte implements Network
+class Wifi implements Network
 {
     public function type(): int
     {
-        return NetworkType::MOBILE;
+        return NetworkType::WIFI;
     }
 
     public function subtype(): int
     {
-        return NetworkSubtype::LTE;
+        return NetworkSubtype::UNKNOWN;
     }
 }
