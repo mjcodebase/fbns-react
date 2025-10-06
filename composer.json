@@ -22,7 +22,12 @@
     ],
     "autoload": {
         "psr-4": {
-            "Fbns\\Client\\": "src/"
+            "Fbns\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Fbns\\Tests\\": "tests/"
         }
     },
     "require": {
